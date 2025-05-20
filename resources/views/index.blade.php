@@ -16,7 +16,7 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet"
     type="text/css" />
   <!-- Core theme CSS (includes Bootstrap)-->
-  <link href="{{ asset('css/style.css') }}" rel="stylesheet">
+  <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -27,7 +27,7 @@
     </div>
   </nav>
   <!-- Masthead-->
-  <header class="masthead">
+  <header class="masthead" style="background-image: url('img/video-bg.jpg')">
     <div class="container position-relative">
       <div class="row justify-content-center">
         <div class="col-xl-6">
@@ -44,14 +44,14 @@
     <div class="container-fluid p-0">
       <div class="row g-0">
         <div class="col-lg-6 order-lg-2 text-white showcase-img"
-          style="background-image: url('assets/img/about-us.jpeg')"></div>
+          style="background-image: url('img/about-us.jpeg')"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Our Vision</h2>
           <p class="lead mb-0">Menjadi Perusahaan Pengembang, Penata-kelola, sekaligus Peneliti Teknologi Informasi dengan kontribusi terbanyak di Daerah dan Instansi Indonesia</p>
         </div>
       </div>
       <div class="row g-0">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('assets/img/bg-showcase-2.jpg')">
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg')">
         </div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>Our Mission</h2>
@@ -78,28 +78,28 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/danielhary.png" alt="daniel" />
+            <img class="img-fluid rounded-circle mb-3" src="img/danielhary.png" alt="daniel" />
             <h5>Daniel Hary Prasetyo</h5>
             <p class="font-weight-light mb-0">President Director</p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/anisahherdiyanti.png" alt="anisah" />
+            <img class="img-fluid rounded-circle mb-3" src="img/anisahherdiyanti.png" alt="anisah" />
             <h5>Anisah Herdiyanti</h5>
             <p class="font-weight-light mb-0">CFO of TATI</p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/tonydwi.png" alt="tony" />
+            <img class="img-fluid rounded-circle mb-3" src="img/tonydwi.png" alt="tony" />
             <h5>Tony Dwi Susanto</h5>
             <p class="font-weight-light mb-0">CEO of TATI</p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/rahadianbisma.png" alt="bisma" />
+            <img class="img-fluid rounded-circle mb-3" src="img/rahadianbisma.png" alt="bisma" />
             <h5>Rahadian Bisma</h5>
             <p class="font-weight-light mb-0">CTO of TATI</p>
           </div>
@@ -107,7 +107,6 @@
       </div>
     </div>
   </section>
-
   <!-- Tim Ahli-->
   <section class="testimonials text-center bg-light">
     <div class="container">
@@ -116,35 +115,35 @@
       <div class="row">
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/jovinisita.png" alt="jovi" />
+            <img class="img-fluid rounded-circle mb-3" src="img/jovinisita.png" alt="jovi" />
             <h5>Jovi Nisita Pratama</h5>
             <p class="font-weight-light mb-0">Project Manager</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/alvisi.png" alt="alvisi" />
+            <img class="img-fluid rounded-circle mb-3" src="img/alvisi.png" alt="alvisi" />
             <h5>Alvisi Aura Chandra</h5>
             <p class="font-weight-light mb-0">Project Manager</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/nuraini.png" alt="nur" />
+            <img class="img-fluid rounded-circle mb-3" src="img/nuraini.png" alt="nur" />
             <h5>Nur Aini Esanti</h5>
             <p class="font-weight-light mb-0">Project Manager</p>
           </div>
         </div>
         <div class="col-lg-2">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/annisajariki.png" alt="jariki" />
+            <img class="img-fluid rounded-circle mb-3" src="img/annisajariki.png" alt="jariki" />
             <h5>Annisa Jariki Permata Alam</h5>
             <p class="font-weight-light mb-0">General Manager</p>
           </div>
         </div>
         <div class="col-lg-3">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="assets/img/anggarda.png" alt="anggarda" />
+            <img class="img-fluid rounded-circle mb-3" src="img/anggarda.png" alt="anggarda" />
             <h5>Anggarda Bayu Wardana</h5>
             <p class="font-weight-light mb-0">Senior Programmer</p>
           </div>
