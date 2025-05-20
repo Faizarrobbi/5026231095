@@ -4,25 +4,25 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Sigmar&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="mycss1.css">
+        <link rel="stylesheet" href="/resources/css/mycss2.css">
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        
+
+
     </head>
     <body>
         <div class="topnav">
             | <a href="https://portal.its.ac.id/">Web ITS</a>
-            | <a href="https://www.google.com/" target="_blank">Google</a> 
-            | <a href="https://www.youtube.com/@HmmAeWes" target="_self">Youtube HmmAeWes</a> 
+            | <a href="https://www.google.com/" target="_blank">Google</a>
+            | <a href="https://www.youtube.com/@HmmAeWes" target="_self">Youtube HmmAeWes</a>
         </div>
-        
+
         <h2 style="color: #0073ff;">Bantu Adaptasi Mahasiswa Baru, ITS Gelar Mentoring Agama Islam</h2>
         <h6>Oleh : itsash | 18 | Source : ITS Online</h6>
 
         <img src="https://www.its.ac.id/news/wp-content/uploads/sites/2/2025/02/IMG_20250223_084851-1024x576.jpg" width="600">
         <h1>   </h1>
-        
+
 
         <p>
             Kampus ITS, ITS News — Institut Teknologi Sepuluh Nopember (ITS) kembali menggelar Mentoring Agama Islam Semester Genap 2024/2025 dengan berbagai rangkaian kegiatan. Kegiatan ini bertujuan membentuk karakter mahasiswa baru (maba) muslim berbasis nilai-nilai Islam. Acara yang resmi dibuka dalam kuliah umum ini berlangsung di Masjid Manarul Ilmi ITS, Sabtu (22/02).
@@ -38,10 +38,10 @@
         <img src="materialC/IMG_20250223_101353-1024x576.jpg" width="600">
         <h6>Dosen agama islam ITS Prof Dr Ir Adi Soeprijanto MT saat memberikan materi sirah nabawi pada Kuliah Umum Mentoring Agama Islam Semester Genap 2024/2025</h6>
         <h1>   </h1>
-        
-        
+
+
         <p>
-            Tak berhenti di situ, kegiatan ini kemudian diperkuat melalui kegiatan Ramadhan di Kampus (RDK) 46. Pada kegiatan ini, maba mengikuti kajian inspiratif, kajian rutin Subuh, dan Tarawih selama bulan Ramadhan guna memperdalam pemahaman keislaman secara aplikatif. “Melalui mentoring ini, mahasiswa mampu mengamalkannya ilmu keislaman dalam kehidupan sehari-hari,” tambah Dosen Statistika ITS tersebut. 
+            Tak berhenti di situ, kegiatan ini kemudian diperkuat melalui kegiatan Ramadhan di Kampus (RDK) 46. Pada kegiatan ini, maba mengikuti kajian inspiratif, kajian rutin Subuh, dan Tarawih selama bulan Ramadhan guna memperdalam pemahaman keislaman secara aplikatif. “Melalui mentoring ini, mahasiswa mampu mengamalkannya ilmu keislaman dalam kehidupan sehari-hari,” tambah Dosen Statistika ITS tersebut.
         </p>
         <hr>
         <tt>
@@ -71,19 +71,19 @@
                 <img src="materialC/supermarket.jpg" style="width:100%">
                 <img src="materialC/Valorant.png" style="width:100%">
             </div>
-            
+
             <div class="column">
                 <img src="materialC/GTA ONILE.png" style="width:100%">
                 <img src="materialC/Hmm.png" style="width:100%">
                 <img src="materialC/KITA ROLEPLAY.png" style="width:100%">
             </div>
-            
+
             <div class="column">
                 <img src="materialC/LEGO Pirates of The Caribbean.png" style="width:100%">
                 <img src="materialC/Ramadhan 1446.png" style="width:100%">
                 <img src="materialC/San Andreas.png" style="width:100%">
             </div>
-            
+
             <div class="column">
                 <img src="materialC/The Forest.png" style="width:100%">
                 <img src="materialC/NFS Most Wanted.png" style="width:100%">
