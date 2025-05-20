@@ -52,3 +52,7 @@ Route::get('js1', function () {
 Route::get('js2', function () {
 	return view('js2');
 });
+
+Route::get('index', function () {
+	return view('index');
+});
