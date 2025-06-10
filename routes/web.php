@@ -5,6 +5,7 @@ use App\Http\Controllers\Coba;
 use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BlogController;
+use App\Http\Controllers\MinyakGorengController;
 
 /*
 |--------------------------------------------------------------------------
@@ -90,3 +91,15 @@ Route::get('/pegawai/hapus/{id}', [PegawaiDBController::class, 'hapus']);
 // route pencari
 Route::get('/pegawai', [PegawaiDBController::class, 'index']);
 Route::get('/pegawai/cari', [PegawaiDBController::class, 'cari']);
+
+//route CRUD 2
+Route::get('/minyak', [MinyakGorengController::class, 'minyak']);
+Route::get('/minyak/tambah', [MinyakGorengController::class, 'tambah']);
+Route::post('/minyak/store', [MinyakGorengController::class, 'store']);
+Route::get('/minyak/edit/{id}', [MinyakGorengController::class, 'edit']);
+Route::post('/minyak/update', [MinyakGorengController::class, 'update']);
+Route::get('/minyak/hapus/{id}', [MinyakGorengController::class, 'hapus']);
+
+//route pencari 2
+Route::get('/minyak', [MinyakGorengController::class, 'minyak']);
+Route::get('/minyak/cari', [MinyakGorengController::class, 'cari']);

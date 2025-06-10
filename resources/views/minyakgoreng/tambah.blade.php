@@ -3,21 +3,21 @@
 
 
 @section('content')
-	<h3>Edit Pegawai</h3>
+	<h3>Data Minyak</h3>
 
-	<a href="/pegawai"> Kembali</a>
+	<a href="/minyak" class="btn btn-info"> Kembali</a>
 
 	<br/>
 	<br/>
 
-	@foreach($pegawai as $p)
-	<form action="/pegawai/update/{{ $m->ID }}" method="post" class="form-horizontal">
+	<form action="/minyak/store" method="post" class="form-horizontal">
 		{{ csrf_field() }}
-		<div class="form-group">
-            <label class="control-label col-sm-2" required="required" for="nama">Nama</label>
+
+        <div class="form-group">
+            <label class="control-label col-sm-2" required="required" for="merk">Merk</label>
             <div class="col-sm-6">
-                <input class="form-control" type="text" id="nama" name="nama"
-                       placeholder="Masukkan Nama" required="required" value="{{ $p->nama }}">
+                <input class="form-control" type="text" id="merk" name="merk"
+                       placeholder="Masukkan Merk" required>
             </div>
         </div>
 
@@ -25,13 +25,13 @@
             <label class="control-label col-sm-2" required="required" for="harga">Harga</label>
             <div class="col-sm-6">
                 <input class="form-control" type="number" id="harga" name="harga"
-                       placeholder="Masukkan Harga" required="required" value="{{ $p->hargaminyakgoreng }}">
+                       placeholder="Masukkan Harga" required>
             </div>
         </div>
 
         <div class="form-group">
             <label class="control-label col-sm-2" required="required" for="tersedia">
-                <input type="checkbox" name="tersedia" value="1" {{ $m->tersedia ? 'checked' : '' }}> Stok Tersedia
+                <input type="checkbox" name="tersedia"> Stok Tersedia
             </label>
         </div>
 
@@ -39,12 +39,10 @@
             <label class="control-label col-sm-2" required="required" for="berat">Berat</label>
             <div class="col-sm-6">
             <input class="form-control" type="number" id="berat" name="berat"
-                   step="any" required="required" value="{{ $p->alamat }}">
+                   placeholder="Masukkan Berat" step="any" required>
             </div>
         </div>
 
-		<input class="btn btn-success" type="submit" value="Simpan">
+		<input class="btn btn-success" type="submit" value="Simpan Data">
 	</form>
-	@endforeach
-    {{ $pegawai->links() }}
 @endsection

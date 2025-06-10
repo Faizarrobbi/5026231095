@@ -38,7 +38,7 @@
         </div>
 
         <div class="form-group">
-            <label class="control-label col-sm-2" required="required" for="nama">Alamat</label>
+            <label class="control-label col-sm-2" required="required" for="alamat">Alamat</label>
             <div class="col-sm-6">
             <textarea class="form-control" type="text" id="alamat"
                    placeholder="Masukkan Alamat Lengkap"></textarea>

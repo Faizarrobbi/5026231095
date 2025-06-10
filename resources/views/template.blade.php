@@ -24,7 +24,7 @@
         <h1>5026231095 : Akhtar Zia Faizarrobbi</h1>
     </div>
 
-    
+
 
     <nav class="navbar navbar-expand-sm bg-light">
         <ul class="navbar-nav">
@@ -35,7 +35,7 @@
                 <a class="nav-link" href="/pegawai">Pegawai</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tugas CRUD</a>
+                <a class="nav-link" href="/minyak">Tugas CRUD</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">EAS</a>
