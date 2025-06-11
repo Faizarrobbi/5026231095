@@ -6,6 +6,7 @@ use App\Http\Controllers\PegawaiController;
 use App\Http\Controllers\PegawaiDBController;
 use App\Http\Controllers\BlogController;
 use App\Http\Controllers\MinyakGorengController;
+use App\Http\Controllers\PageCounterController;
 
 /*
 |--------------------------------------------------------------------------
@@ -103,3 +104,6 @@ Route::get('/minyak/hapus/{id}', [MinyakGorengController::class, 'hapus']);
 //route pencari 2
 Route::get('/minyak', [MinyakGorengController::class, 'minyak']);
 Route::get('/minyak/cari', [MinyakGorengController::class, 'cari']);
+
+//route latihan 1
+Route::get('/pagecounter', [PageCounterController::class, 'show']);

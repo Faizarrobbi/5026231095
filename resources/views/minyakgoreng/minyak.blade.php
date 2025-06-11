@@ -6,7 +6,6 @@
 	<h3>Data Minyak Goreng</h3>
 
 	<a href="/minyak/tambah" class="btn btn-primary"> + Tambah Stok Minyak Baru</a>
-
     <p>Cari Minyak Goreng :</p>
     <form action="/minyak/cari" method="GET">
         <input type="text" name="cari" placeholder="Cari Minyak Goreng .." value="{{ old('cari') }}">

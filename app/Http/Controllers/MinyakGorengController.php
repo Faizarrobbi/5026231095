@@ -56,7 +56,7 @@ class MinyakGorengController extends Controller
     // Method untuk update data minyak goreng
     public function update(Request $request)
     {
-        
+
 	    // update data minyak goreng
 	    $minyakgoreng = DB::table('minyakgoreng')->where('ID',$request->id)->update([
 		    'merkminyakgoreng' => $request->merk,
