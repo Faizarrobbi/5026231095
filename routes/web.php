@@ -9,6 +9,7 @@ use App\Http\Controllers\MinyakGorengController;
 use App\Http\Controllers\PageCounterController;
 use App\Http\Controllers\KaryawanController;
 use App\Http\Controllers\KeranjangBelanjaController;
+use App\Http\Controllers\EasController;
 
 /*
 |--------------------------------------------------------------------------
@@ -124,3 +125,8 @@ Route::get('/keranjangbelanja/belikeranjangbelanja/{id}', [KeranjangBelanjaContr
 Route::get('/keranjangbelanja/batalkeranjangbelanja/{id}', [KeranjangBelanjaController::class, 'batalkeranjangbelanja']);
 Route::post('/keranjangbelanja/storekeranjangbelanja', [KeranjangBelanjaController::class, 'storekeranjangbelanja']);
 Route::post('/keranjangbelanja/updatekeranjangbelanja', [KeranjangBelanjaController::class, 'updatekeranjangbelanja']);
+
+//route EAS
+Route::get('/eas', [EasController::class, 'nilai']);
+Route::get('/eas/tambah', [EasController::class, 'tambah']);
+Route::post('/eas/store', [EasController::class, 'store']);
